@@ -1,3 +1,10 @@
+import Navigation from "../../components/navigation";
+
 export default function AbousUs() {
-  return <h1>abous-us</h1>;
+  return (
+    <div>
+      <Navigation />
+      <h1>abous-us</h1>
+    </div>
+  );
 }
